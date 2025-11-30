@@ -1,8 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
+public class Main {
+    public static void main(String[] args) {
 
-//   Test your code here
-    IO.println(String.format("Hello and welcome!"));
+        Player p = new Player("Refat", CharacterType.OUTSIDER);
+        Opponent o = new Opponent("PM ");
+        Ally a = new Ally("Local Leader", 60, 10);
 
+        p.giveSpeech();
+        p.bribe(o);
+        p.negotiateAlliance(a);
+        p.updateStats();
+    }
 }

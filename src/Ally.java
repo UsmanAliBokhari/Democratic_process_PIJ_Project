@@ -1,19 +1,14 @@
-public class Ally extends Character {
+public class Ally {
+    private String name;
     private double loyalty;
     private double influenceBoost;
 
-    public Ally(String name, double popularity, double loyalty, double influenceBoost) {
-        super(name, popularity);
+    public Ally(String name, double loyalty, double influenceBoost) {
+        this.name = name;
         this.loyalty = loyalty;
         this.influenceBoost = influenceBoost;
     }
 
-    public void supportPlayer(Player player) {
-        System.out.println(name + " supports " + player.getName());
-        player.increasePopularity(influenceBoost);
-    }
-
-    public void breakAlliance() {
-        System.out.println(name + " has broken the alliance!");
-    }
+    public String getName() { return name; }
+    public double getInfluenceBoost() { return influenceBoost; }
 }
