@@ -1,7 +1,7 @@
 public class Item {
     private String name;
     private String description;
-    private String type;
+    private String type; // political, evidence, tool, valuable, document
     private double value;
 
     public Item(String name, String description, String type, double value) {
@@ -15,7 +15,8 @@ public class Item {
         System.out.println(player.getName() + " used item: " + name);
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
+    public String getDescription() { return description; }
+    public String getType() { return type; }
+    public double getValue() { return value; }
 }

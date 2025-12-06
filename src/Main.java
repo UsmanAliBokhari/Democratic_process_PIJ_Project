@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
+        // Create player with chosen character type
+        Player player = new Player("Refat", CharacterType.OUTSIDER);
 
-        Player p = new Player("Refat", CharacterType.OUTSIDER);
-        Opponent o = new Opponent("PM ");
-        Ally a = new Ally("Local Leader", 60, 10);
+        // Create game manager
+        GameManager gameManager = new GameManager(player);
 
-        p.giveSpeech();
-        p.bribe(o);
-        p.negotiateAlliance(a);
-        p.updateStats();
+        // Start the game
+        gameManager.start();
     }
 }

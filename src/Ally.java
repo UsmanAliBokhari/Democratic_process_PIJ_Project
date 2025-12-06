@@ -10,5 +10,12 @@ public class Ally {
     }
 
     public String getName() { return name; }
+    public double getLoyalty() { return loyalty; }
     public double getInfluenceBoost() { return influenceBoost; }
+
+    public void updateLoyalty(double amount) {
+        loyalty += amount;
+        if (loyalty > 100) loyalty = 100;
+        if (loyalty < 0) loyalty = 0;
+    }
 }
