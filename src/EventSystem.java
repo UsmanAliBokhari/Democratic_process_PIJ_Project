@@ -6,7 +6,7 @@ import java.util.Random;
  * Manages random events that can occur during the game.
  * Events affect the player's stats and add unpredictability.
  *
- * @author Refat
+ * @author Usman
  * @version 1.0
  */
 public class EventSystem {

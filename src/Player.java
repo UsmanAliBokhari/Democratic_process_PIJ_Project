@@ -5,7 +5,7 @@ import java.util.List;
  * Represents the player character in the game.
  * Manages player statistics, inventory, alliances, and actions.
  *
- * @author Us
+ * @author Usman
  * @version 12
  */
 public class Player {
@@ -146,7 +146,7 @@ public class Player {
 
         // 20% chance speech backfires
         if (Math.random() < 0.20) {
-            double damage = 5 + (Math.random() * 10); // 5-15 popularity loss
+            double damage = 5 + (Math.random() * 15); // 5-20 popularity loss
             popularity -= damage;
             if (popularity < 0) popularity = 0;
 
@@ -166,7 +166,7 @@ public class Player {
             System.out.println("Scandal risk increased by 5");
         } else {
             // Speech effectiveness varies
-            double effectiveness = 8 + (Math.random() * 7); // 8-15 popularity
+            double effectiveness = 10 + (Math.random() * 15); // 10-25 popularity
             popularity += effectiveness;
 
             System.out.println("The speech was well received!");

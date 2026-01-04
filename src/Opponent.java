@@ -2,7 +2,7 @@
  * Represents an opponent in the political campaign.
  * Opponents compete for popularity and have defense against player actions.
  *
- * @author Refat
+ * @author Abdur Rahim
  * @version 1.0
  */
 public class Opponent {

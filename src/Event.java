@@ -1,7 +1,7 @@
 /**
  * Represents a random game event with effects on player stats.
  *
- * @author Refat
+ * @author Abdur Rahim
  * @version 1.0
  */
 public class Event {

@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Processes player commands and manages the game loop.
  * Handles all user input and routes commands to appropriate game actions.
  *
- * @author Refat
+ * @author Usman
  * @version 1.0
  */
 public class CommandProcessor {

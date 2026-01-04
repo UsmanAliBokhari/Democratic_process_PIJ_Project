@@ -7,7 +7,7 @@ import java.util.Map;
  * GameManager class manages the overall game state, including player actions,
  * world navigation, opponents, allies, and game progression.
  *
- * @author Refat
+ * @author Usman
  * @version 1.0
  */
 public class GameManager {

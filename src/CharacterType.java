@@ -1,7 +1,7 @@
 /**
  * Enum representing different character types with varying starting stats.
  *
- * @author Refat
+ * @author Abdur Rahim
  * @version 1.0
  */
 public enum CharacterType {

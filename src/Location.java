@@ -7,8 +7,8 @@ import java.util.Map;
  * Represents a location in the game world.
  * Locations contain items, NPCs, and connections to other locations.
  *
- * @author Refat
- * @version 1.0
+ * @author Abdur Rahim
+ * @version 2.0
  */
 public class Location {
     private String name;

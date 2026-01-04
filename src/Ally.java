@@ -2,7 +2,7 @@
  * Represents an ally character that can join the player's campaign.
  * Allies provide influence boosts and have loyalty requirements.
  *
- * @author Refat
+ * @author Usman
  * @version 1.0
  */
 public class Ally {

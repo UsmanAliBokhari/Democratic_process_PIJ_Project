@@ -1,7 +1,7 @@
 /**
  * Abstract base class for all character entities.
  *
- * @author Refat
+ * @author Abdur Rahim
  * @version 1.0
  */
 public abstract class Character {

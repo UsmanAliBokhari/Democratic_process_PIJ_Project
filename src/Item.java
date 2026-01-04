@@ -2,7 +2,7 @@
  * Represents an item that can be collected and used by the player.
  * Items have different types and effects.
  *
- * @author Refat
+ * @author Abdur Rahim
  * @version 1.0
  */
 public class Item {
